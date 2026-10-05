@@ -1,0 +1,5 @@
+@import "tailwindcss";
+body{background:#0B1020;color:#F8FAFC;font-family:system-ui,sans-serif}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace}
+@keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.pop{animation:pop .35s ease both}
